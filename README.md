@@ -141,11 +141,9 @@ Soy un **desarrollador Full Stack** con especialización en **Backend** y **Clou
 
 ### 🚀 Proyectos
 - 🔸 Desarrollo de **APIs RESTful** con .NET Core
-- 🔸 **Microservicios** containerizados con Docker
 - 🔸 Despliegue en **AWS** (ECR, RDS, EC2)
 - 🔸 Diseño y optimización de **Bases de Datos**
 - 🔸 Implementación de **JWT Authentication**
-- 🔸 **CI/CD** con GitHub Actions
 
 </td>
 <td width="50%" valign="top">
@@ -153,9 +151,6 @@ Soy un **desarrollador Full Stack** con especialización en **Backend** y **Clou
 ### 📖 Aprendiendo
 - 🔹 **CQRS** + Event Sourcing
 - 🔹 **AWS Solutions Architect**
-- 🔹 **Kubernetes** para orquestación
-- 🔹 **gRPC** para comunicación entre servicios
-- 🔹 **Redis** para caché distribuido
 - 🔹 **Next.js 14** + TypeScript
 
 </td>
@@ -181,9 +176,7 @@ Soy un **desarrollador Full Stack** con especialización en **Backend** y **Clou
 <br>
 
 - 📜 **Análisis y Desarrollo de Software** - SENA (En curso)
-- 📜 **Microsoft .NET Development** (Preparándome)
 - 📜 **AWS Cloud Practitioner** (Próximamente)
-- 📜 **SQL Server Administration** (En progreso)
 
 </details>
 
@@ -198,19 +191,9 @@ Soy un **desarrollador Full Stack** con especialización en **Backend** y **Clou
 <table>
 <tr>
 <td width="33%" align="center">
-<h3>🏢 E-Commerce API</h3>
-<p>API RESTful completa con .NET Core, SQL Server y JWT. Incluye gestión de productos, usuarios, órdenes y pagos.</p>
+<h3>PRUEBA</h3>
+<p>PRUEBA</p>
 <p><b>Stack:</b> C#, .NET Core, SQL Server, Docker</p>
-</td>
-<td width="33%" align="center">
-<h3>☁️ Cloud Microservices</h3>
-<p>Arquitectura de microservicios desplegada en AWS con contenedores Docker en ECR y base de datos en RDS.</p>
-<p><b>Stack:</b> .NET, AWS, Docker, PostgreSQL</p>
-</td>
-<td width="33%" align="center">
-<h3>📊 Dashboard Analytics</h3>
-<p>Sistema de analíticas con frontend en React y backend en .NET. Visualización de datos en tiempo real.</p>
-<p><b>Stack:</b> React, TypeScript, .NET, Chart.js</p>
 </td>
 </tr>
 </table>
@@ -225,7 +208,7 @@ Soy un **desarrollador Full Stack** con especialización en **Backend** y **Clou
 
 <div align="center">
 
-**💬 ¿Tienes un proyecto en mente? ¿Quieres colaborar?**  
+**💬 ¿Tienes un proyecto en mente?**  
 **¡Hablemos! Siempre estoy abierto a nuevas oportunidades y desafíos.**
 
 <br>
@@ -276,25 +259,15 @@ Soy un **desarrollador Full Stack** con especialización en **Backend** y **Clou
 - [ ] 🎓 Graduarme del programa ADSO - SENA
 - [ ] ☁️ Obtener certificación AWS Solutions Architect
 - [ ] 🏆 Contribuir a 3 proyectos Open Source
-- [ ] 📝 Escribir 12 artículos técnicos en mi blog
 - [ ] 🚀 Desarrollar y deployar 5 proyectos personales en AWS
 - [ ] 💼 Conseguir mi primer trabajo como Backend Developer
-- [ ] 📚 Completar curso avanzado de Microservicios
-- [ ] 🤝 Mentorar a 2 desarrolladores junior
+
 
 </details>
 
 <br>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## 🎵 Spotify - Música mientras codifico
-
-<div align="center">
-
-[![Spotify](https://novatorem-kappa-five-51.vercel.app/api/spotify)](https://open.spotify.com/user/[tu_usuario])
-
-</div>
 
 <br>
 
@@ -323,46 +296,6 @@ Soy un **desarrollador Full Stack** con especialización en **Backend** y **Clou
 
 <br>
 
-<details>
-<summary><b>🔒 Easter Egg 🥚 - ¡Encontraste un secreto!</b></summary>
-<br>
-
-<div align="center">
-
-### 🎉 ¡Felicidades! Has descubierto mi easter egg secreto
-
-```
-  _____                           _       _       
- |  __ \                         | |     | |      
- | |  \/ _ __ __ _  ___ _  __ _  | |_ ___| |_ __ 
- | | __ | '__/ _` |/ __| |/ _` | | __/ _ \ | '__|
- | |_\ \| | | (_| | (__| | (_| | | ||  __/ | |   
-  \____/|_|  \__,_|\___|_|\__,_|  \__\___|_|_|   
-                                                   
-  ¡Eres de los que exploran el código! Me caes bien 😎
-```
-
-**Secreto del código:**  
-> "El mejor código es el que nunca se escribió... pero cuando se escribe, que sea limpio y bien documentado."
-
-**Mi stack secreto de productividad:**
-- ☕ Café: Método principal de debugging
-- 🎧 Lofi Hip Hop: Compilador de concentración
-- 🌙 Modo oscuro: Siempre activado
-- 🐛 Rubber Duck: Mi compañero de debugging
-- 💡 StackOverflow: Salvavidas oficial
-
-**Fun Facts sobre mí:**
-1. He debuggeado código por más de 6 horas por un punto y coma
-2. Mi IDE favorito cambia según el día de la semana
-3. Sí, también googleé "cómo centrar un div" alguna vez
-4. Tengo más proyectos sin terminar que terminados (estoy trabajando en eso 😅)
-5. Mi código tiene más comentarios que mi vida social
-
-</div>
-
-</details>
-
 <br>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -379,6 +312,5 @@ Soy un **desarrollador Full Stack** con especialización en **Backend** y **Clou
 
 ---
 
-<sub>💡 Tip: Presiona <kbd>Ctrl</kbd> + <kbd>F</kbd> y busca "Easter Egg" para encontrar sorpresas ocultas</sub>
 
 </div>
