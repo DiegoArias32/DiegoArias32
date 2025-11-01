@@ -154,9 +154,6 @@ Soy un **desarrollador FULLSTACK** apasionado por construir sistemas escalables 
   <img width="48%" src="https://github-contributor-stats.vercel.app/api?username=DiegoArias32&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=ffffff&border_radius=10"/>
 </p>
 
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DiegoArias32&custom_title=📈%20Contribution%20Timeline&bg_color=0D1117&color=667eea&line=667eea&point=ffffff&area=true&hide_border=true&border_radius=10" width="98%"/>
-
 </div>
 
 <br/>
