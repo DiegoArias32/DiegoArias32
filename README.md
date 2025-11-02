@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Elegant Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=300&section=header&text=Diego%20Arias&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Backend%20Developer%20%7C%20Cloud%20Architect%20%7C%20Problem%20Solver&descAlignY=55&descSize=20"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=300&section=header&text=Diego%20Arias&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=FullStack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Problem%20Solver&descAlignY=55&descSize=20"/>
 
 <!-- Dynamic Typing Animation -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&repeat=true&width=550&height=70&lines=Construyendo+sistemas+backend+escalables;Creando+c%C3%B3digo+limpio+y+eficiente;Desplegando+en+infraestructura+cloud;Siempre+aprendiendo+siempre+creciendo" alt="Typing SVG"/>
