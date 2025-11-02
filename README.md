@@ -8,7 +8,7 @@
 
 <!-- Social Badges with Hover Effect -->
 <p>
-  <a href="https://www.linkedin.com/in/tu_usuario">
+  <a href="https://www.linkedin.com/in/diego-arias-654426250/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="mailto:ariasdiego570@gmail.com">
@@ -265,7 +265,7 @@ Soy un **desarrollador FULLSTACK** apasionado por construir sistemas escalables 
 
 <br/>
 
-<a href="https://www.linkedin.com/in/tu_usuario">
+<a href="https://www.linkedin.com/in/diego-arias-654426250/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2"/>
 </a>
 <a href="mailto:ariasdiego570@gmail.com">
