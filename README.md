@@ -255,10 +255,6 @@ Soy un **desarrollador FULLSTACK** apasionado por construir sistemas escalables 
 <!-- Contact Section with Better Design -->
 <div align="center">
 
-## 📬 Conectemos
-
-<img src="https://user-images.githubusercontent.com/74038190/216644497-1951db19-8f3d-4e44-ac08-8e9d7e0d94a7.gif" width="250">
-
 <br/><br/>
 
 **¿Tienes un proyecto en mente? ¡Hablemos!**
@@ -315,7 +311,5 @@ Soy un **desarrollador FULLSTACK** apasionado por construir sistemas escalables 
 <img src="https://img.shields.io/badge/Open%20to-Colaborar-764ba2?style=for-the-badge&logo=handshake&logoColor=white"/>
 
 <br/><br/>
-
-**⭐ Si te gustó mi perfil, no olvides darle una estrella a mis repos! ⭐**
 
 </div>
