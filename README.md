@@ -1,315 +1,118 @@
 <div align="center">
 
-<!-- Elegant Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=300&section=header&text=Diego%20Arias&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=FullStack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Problem%20Solver&descAlignY=55&descSize=20"/>
+# Diego Arias
 
-<!-- Dynamic Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&repeat=true&width=550&height=70&lines=Construyendo+sistemas+backend+escalables;Creando+c%C3%B3digo+limpio+y+eficiente;Desplegando+en+infraestructura+cloud;Siempre+aprendiendo+siempre+creciendo" alt="Typing SVG"/>
+**Full-Stack Developer** — enterprise systems, clean architecture, cloud deployments
 
-<!-- Social Badges with Hover Effect -->
-<p>
-  <a href="https://www.linkedin.com/in/diego-arias-654426250/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:ariasdiego570@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://github.com/DiegoArias32">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Portfolio-667eea?style=for-the-badge&logo=google-chrome&logoColor=white"/>
-  </a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diego-arias-654426250/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ariasdiego570@gmail.com)
+[![Claude Code](https://img.shields.io/badge/Certified-Claude%20Code%20in%20Action-D97706?style=flat-square&logo=anthropic&logoColor=white)](https://www.anthropic.com)
 
-<img src="https://komarev.com/ghpvc/?username=DiegoArias32&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS"/>
+*Neiva, Colombia · Open to remote & relocation worldwide*
 
 </div>
 
-<br/>
+---
 
-<!-- About Me Section with Better Layout -->
-<div align="left">
+I build production web systems end-to-end — from database schema to CI/CD pipeline. Currently the sole developer behind a 5-module enterprise platform running in production at a Colombian power utility, serving real users daily.
 
-## ✨ ¡Hola! Soy Diego De Jesús Arias González
+My stack spans **C# / .NET**, **Laravel**, **React / Next.js**, **TypeScript**, and **multi-database architectures**. I've shipped systems with Oracle + SQL Server + PostgreSQL + MySQL all connected in a single application, real-time SignalR updates, Jenkins CI/CD pipelines, and full E2E test coverage with Cypress and Playwright.
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="400">
+On the AI side, I built a full ChatGPT-like platform from scratch — hybrid RAG with pgvector, 4 LLM providers, Stripe billing, OCR, and LLM observability with Langfuse.
 
-Soy un **desarrollador FULLSTACK** apasionado por construir sistemas escalables y eficientes. Actualmente estoy cursando **Análisis y Desarrollo de Software en el SENA** y especializándome en tecnologías cloud y arquitecturas modernas.
+---
 
-### 👨‍💻 Sobre Mí
+## What I've built
 
-- 👤 **Nombre:** Diego De Jesús Arias González
-- 🎂 **Edad:** 19 años (2006)
-- 📍 **Ubicación:** Neiva, Colombia 🇨🇴
-- 🎓 **Formación:** Tecnólogo ADSO - SENA (En curso)
+### 🏭 PQR-Agenda · Enterprise Platform · *Production @ ElectroHuila*
 
-### 🌱 Actualmente Aprendiendo
+A multi-module internal system for Colombia's Huila region power utility. Built solo from architecture to deployment.
 
-- 🎓 **Estudiante de Tecnología** en SENA - Análisis y Desarrollo de Software
-- 🚀 **Especializándome** en despliegue en la nube
-- ☁️ **Preparándome** para certificación AWS
-- 💡 **Explorando** Event Sourcing, CQRS
+| Module | What it does |
+|--------|-------------|
+| **PQR Scheduling** | Appointment system with interactive calendar, QR verification, Excel export, admin panel |
+| **Corporate Intranet** | Unified portal for 30+ internal apps, categorized by department, SSO |
+| **Actas** | Automatic PDF/document generation, PWA |
+| **KPI Dashboard** | Real-time indicators (SAIDI, SAIFI, revenue), Recharts |
+| **ServiCampo** | Field operations with KML mapping |
 
-</div>
+**Architecture:** Clean Architecture + CQRS · ASP.NET Core 10 (C# 13) + Laravel 12 (PHP 8.2)
+**Data:** Oracle 19c primary · SQL Server · PostgreSQL · MySQL — all in one app via Entity Framework
+**Real-time:** SignalR · Gmail API · WhatsApp API
+**DevOps:** Jenkins declarative pipeline · Docker Compose · Dev / QA / Production environments
+**Testing:** Vitest · Cypress E2E · Playwright · Pest PHP
+**Security:** JWT · role-based permissions per module · CORS · Zod validation · Polly retry policies
 
-<br clear="right"/>
-<br/>
+`C#` `ASP.NET Core 10` `Laravel 12` `Next.js 15` `React 19` `TypeScript` `Tailwind CSS` `Oracle` `SQL Server` `PostgreSQL` `MySQL` `Docker` `Jenkins` `SignalR` `Entity Framework` `Zod`
 
-<!-- Elegant Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
-<br/>
+### 🤖 Electro IA · AI Chat Platform · *Personal project*
 
-<!-- Tech Stack Section with Better Visual Hierarchy -->
+Full-stack ChatGPT-like platform with RAG, multimodal input, and subscription billing. Built as a Turbo monorepo.
+
+**AI layer:**
+- Hybrid RAG: vector similarity (pgvector HNSW 72%) + lexical (25%) + recency boost (3%) over PDFs, text, GitHub repos
+- 4 LLM providers via Vercel AI SDK: Claude · GPT · Gemini · Ollama (Gemma 3 12B local)
+- Intent detection across 11 categories — math short-circuit, auto web search (Tavily), joke/story memory
+- OCR pipeline with Tesseract.js · multimodal messages · context window trimming
+
+**Platform layer:**
+- Auth: Clerk with webhook sync to PostgreSQL
+- Billing: Stripe (Free/Pro plans) · webhooks · token metering · 30-day reset
+- Rate limiting: Upstash Redis with sliding window
+- Observability: Langfuse (LLM traces) · Sentry (errors)
+
+**Stack:** Next.js 15 · React 19 · TypeScript · Hono edge API · Drizzle ORM · Neon PostgreSQL · Tailwind CSS · shadcn/ui · Turbo monorepo
+
+`Next.js 15` `Hono` `Drizzle ORM` `pgvector` `Vercel AI SDK` `Anthropic` `OpenAI` `Gemini` `Ollama` `Stripe` `Clerk` `Langfuse` `Sentry` `Upstash` `Turbo`
+
+---
+
+## Stack
+
+```
+Backend      C# · ASP.NET Core · PHP · Laravel · Python · Entity Framework
+             REST APIs · Microservices · SignalR · JWT · Polly
+
+Frontend     React · Next.js · TypeScript · Tailwind CSS · Zustand · SWR
+             Framer Motion · shadcn/ui · Recharts
+
+Databases    Oracle · SQL Server · PostgreSQL · MySQL · pgvector
+             Multi-database in single application
+
+DevOps       Docker · Jenkins · AWS · CI/CD · Git
+             Vitest · Cypress · Playwright · Pest PHP
+
+AI           Vercel AI SDK · Claude · GPT · Gemini · Ollama
+             RAG · pgvector · Langfuse · Sentry · Stripe · Clerk
+```
+
+---
+
+## Experience
+
+**Application Developer — ElectroHuila S.A. E.S.P.** · Jan 2026 – present
+Sole developer on PQR-Agenda: designed architecture, implemented all 5 modules, configured CI/CD, deployed to production. Stack: ASP.NET Core 10 + Laravel 12 + Next.js 15 + Oracle + Jenkins + Docker.
+
+---
+
+## Education & Certifications
+
+- **ADSO** — Software Analysis and Development · SENA · 2024–2025
+- **Claude Code in Action** — Anthropic · Jan 2026 · `ID: tqfwgvj249nc`
+
+---
+
 <div align="center">
 
-## 🛠️ Tech Stack
-
-### 🎯 Especialización Principal
-
-</div>
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="120">
-<img src="https://techstack-generator.vercel.app/csharp-icon.svg" width="55" height="55" alt="C#" />
-<br><b>C#</b>
-</td>
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=dotnet&theme=dark" width="55" height="55" alt=".NET" />
-<br><b>.NET</b>
-</td>
-<td align="center" width="120">
-<img src="https://techstack-generator.vercel.app/aws-icon.svg" width="55" height="55" alt="AWS" />
-<br><b>AWS</b>
-</td>
-<td align="center" width="120">
-<img src="https://techstack-generator.vercel.app/docker-icon.svg" width="55" height="55" alt="Docker" />
-<br><b>Docker</b>
-</td>
-<td align="center" width="120">
-<img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="55" height="55" alt="REST" />
-<br><b>REST API</b>
-</td>
-</tr>
-</table>
+<img width="47%" src="https://github-readme-stats.vercel.app/api?username=DiegoArias32&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&title_color=60a5fa&icon_color=60a5fa"/>
+<img width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoArias32&layout=compact&theme=github_dark&hide_border=true&langs_count=8&title_color=60a5fa"/>
 
 </div>
 
-<br/>
-
-<details>
-<summary><b>📦 Ver Stack Completo</b></summary>
-
-<br/>
+---
 
 <div align="center">
-
-### Backend & Cloud
-
-<img src="https://skillicons.dev/icons?i=cs,dotnet,aws,docker,nginx,linux&theme=dark&perline=8"/>
-
-### 💾 Bases de Datos
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=postgres,mysql&theme=dark" alt="PostgreSQL, MySQL"/>
-<img src="https://img.icons8.com/color/56/000000/microsoft-sql-server.png" width="56" height="56" alt="SQL Server"/>
-<img src="https://img.icons8.com/color/56/000000/oracle-logo.png" width="56" height="56" alt="Oracle"/>
-</p>
-
-### 🎨 Frontend
-
-<img src="https://skillicons.dev/icons?i=react,typescript,javascript,nextjs,tailwind,html,css&theme=dark&perline=8"/>
-
-### 🔧 Herramientas & DevOps
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,postman,bash&theme=dark&perline=8"/>
-
-</div>
-
-</details>
-
-<br/>
-
-<!-- Elegant Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-<br/>
-
-<!-- GitHub Stats with Better Layout -->
-<div align="center">
-
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=DiegoArias32&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=667eea&text_color=ffffff&count_private=true&include_all_commits=true&border_radius=10"/>
-  <img width="48%" src="https://streak-stats.demolab.com?user=DiegoArias32&theme=radical&hide_border=true&background=0D1117&ring=667eea&fire=ff6b6b&currStreakLabel=667eea&border_radius=10"/>
-</p>
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoArias32&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=ffffff&langs_count=10&border_radius=10"/>
-  <img width="48%" src="https://github-contributor-stats.vercel.app/api?username=DiegoArias32&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=ffffff&border_radius=10"/>
-</p>
-
-</div>
-
-<br/>
-
-<!-- Elegant Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-<br/>
-
-<!-- GitHub Trophies with Better Spacing -->
-<div align="center">
-
-## 🏆 Logros
-
-<img src="https://github-profile-trophy.vercel.app/api/?username=DiegoArias32&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7&title=Commits,Repositories,Stars,Followers,PullRequest,Issues,MultiLanguage" width="100%"/>
-
-</div>
-
-<br/>
-
-<!-- Elegant Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-<br/>
-
-<!-- Skills Section with Icons -->
-<div align="center">
-
-## 💼 Habilidades Profesionales
-
-</div>
-
-<table align="center">
-<tr>
-<td align="center" width="200">
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="50"/>
-<br><b>Backend Development</b>
-<br><sub>APIs RESTful</sub>
-</td>
-<td align="center" width="200">
-<img src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" width="50"/>
-<br><b>Cloud Computing</b>
-<br><sub>AWS, Despliegues Cloud</sub>
-</td>
-<td align="center" width="200">
-<img src="https://img.icons8.com/color/50/000000/oracle-logo.png" width="50"/>
-<br><b>Database Design</b>
-<br><sub>SQL</sub>
-</td>
-<td align="center" width="200">
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="50"/>
-<br><b>DevOps</b>
-<br><sub>Docker</sub>
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- Soft Skills -->
-<div align="center">
-
-### 🌟 Habilidades Blandas
-
-<table>
-<tr>
-<td align="center">
-<img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="30"/>
-<br><b>Trabajo en Equipo</b>
-</td>
-<td align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30"/>
-<br><b>Resolución de Problemas</b>
-</td>
-<td align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="30"/>
-<br><b>Aprendizaje Continuo</b>
-</td>
-<td align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="30"/>
-<br><b>Comunicación</b>
-</td>
-<td align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="30"/>
-<br><b>Adaptabilidad</b>
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-<!-- Elegant Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-<br/>
-
-<!-- Contact Section with Better Design -->
-<div align="center">
-
-<br/><br/>
-
-**¿Tienes un proyecto en mente? ¡Hablemos!**
-
-<br/>
-
-<a href="https://www.linkedin.com/in/diego-arias-654426250/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2"/>
-</a>
-<a href="mailto:ariasdiego570@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335"/>
-</a>
-<a href="https://github.com/DiegoArias32">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717"/>
-</a>
-<a href="#">
-  <img src="https://img.shields.io/badge/Portfolio-667eea?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=667eea"/>
-</a>
-
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=500&lines=Gracias+por+visitar+mi+perfil!;Construyamos+algo+incre%C3%ADble+juntos!;Siempre+aprendiendo+siempre+creciendo" alt="Typing SVG"/>
-
-</div>
-
-<br/>
-
-<!-- Snake Animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DiegoArias32/DiegoArias32/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DiegoArias32/DiegoArias32/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/DiegoArias32/DiegoArias32/output/github-contribution-grid-snake-dark.svg">
-</picture>
-
-<br/><br/>
-
-<!-- Inspirational Quote -->
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="650"/>
-
-</div>
-
-<br/>
-
-<!-- Footer Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=150&section=footer"/>
-
-<!-- Footer Badges -->
-<div align="center">
-
-<img src="https://img.shields.io/badge/Hecho%20con-❤️%20%26%20Markdown-667eea?style=for-the-badge&logo=markdown&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mantenido-Activamente-00C853?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Open%20to-Colaborar-764ba2?style=for-the-badge&logo=handshake&logoColor=white"/>
-
-<br/><br/>
-
+<sub>Building things that run in production · ariasdiego570@gmail.com</sub>
 </div>
