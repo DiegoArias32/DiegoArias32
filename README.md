@@ -245,35 +245,53 @@ Two or three sentences: the problem, the interesting technical decision, the out
 
 <div align="center">
 
-<img width="48%" alt="Stats" src="https://github-readme-stats.vercel.app/api?username=DiegoArias32&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=667eea&text_color=ffffff&count_private=true&include_all_commits=true&border_radius=10"/>
 <img width="48%" alt="Streak" src="https://streak-stats.demolab.com?user=DiegoArias32&theme=radical&hide_border=true&background=0D1117&ring=667eea&fire=ff6b6b&currStreakLabel=667eea&border_radius=10"/>
-
-<br/>
-
-<img width="48%" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoArias32&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=ffffff&langs_count=8&hide=html,css&border_radius=10"/>
 <img width="48%" alt="Most used languages" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DiegoArias32&theme=radical"/>
 
 <br/>
 
+<img width="48%" alt="Repos per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DiegoArias32&theme=radical"/>
 <img width="48%" alt="Productive time" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DiegoArias32&theme=radical&utcOffset=-5"/>
-<img width="48%" alt="Stats card" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DiegoArias32&theme=radical"/>
-
-<br/><br/>
-
-<img width="96%" alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=DiegoArias32&bg_color=0D1117&color=667eea&line=ff6b6b&point=ffffff&area=true&hide_border=true&radius=10"/>
-
-<br/>
-
-<!-- Needs the "3D Contribution Calendar" workflow — see .github/workflows/profile-3d-contrib.yml -->
-<img width="96%" alt="3D contribution calendar" src="./profile-3d-contrib/profile-night-rainbow.svg"/>
-
-<br/>
-
-<!-- Needs the "GitHub Metrics" workflow + a METRICS_TOKEN secret — see .github/workflows/metrics.yml -->
-<img width="48%" alt="Metrics" src="./metrics.svg"/>
-<img width="48%" alt="Isometric calendar" src="./metrics-isocalendar.svg"/>
 
 </div>
+
+<!--
+═══════════════════════════════════════════════════════════════
+SELF-HOSTED CARDS — see SETUP.md §7
+The public instances of these three are permanently over quota
+(402 / 503). Deploy your own on Vercel, replace TU-APP below,
+then uncomment. Takes about 10 minutes, free forever.
+═══════════════════════════════════════════════════════════════
+
+<div align="center">
+
+<img width="48%" alt="Stats" src="https://TU-APP-stats.vercel.app/api?username=DiegoArias32&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=667eea&text_color=ffffff&count_private=true&include_all_commits=true&border_radius=10"/>
+<img width="48%" alt="Top languages" src="https://TU-APP-stats.vercel.app/api/top-langs/?username=DiegoArias32&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=ffffff&langs_count=8&hide=html,css&border_radius=10"/>
+
+<img width="96%" alt="Contribution graph" src="https://TU-APP-graph.vercel.app/graph?username=DiegoArias32&bg_color=0D1117&color=667eea&line=ff6b6b&point=ffffff&area=true&hide_border=true&radius=10"/>
+
+<img width="100%" alt="Trophies" src="https://TU-APP-trophy.vercel.app/api/?username=DiegoArias32&theme=radical&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=6&title=Commits,Repositories,PullRequest,Followers,MultiLanguage,Experience"/>
+
+</div>
+-->
+
+<!--
+═══════════════════════════════════════════════════════════════
+WORKFLOW-GENERATED — uncomment AFTER the Actions run green
+3D calendar  → .github/workflows/profile-3d-contrib.yml
+Metrics      → .github/workflows/metrics.yml (needs a CLASSIC token)
+═══════════════════════════════════════════════════════════════
+
+<div align="center">
+
+<img width="96%" alt="3D contribution calendar" src="./profile-3d-contrib/profile-night-rainbow.svg"/>
+
+<img width="48%" alt="Metrics" src="./metrics.svg"/>
+<img width="48%" alt="Isometric calendar" src="./metrics-isocalendar.svg"/>
+<img width="48%" alt="Coding habits" src="./metrics-habits.svg"/>
+
+</div>
+-->
 
 > 💡 Most of my production work lives in private and company repositories, so these numbers don't tell the whole story. Ask me about the architecture instead — I'd rather talk through a design decision than a commit count.
 
@@ -282,10 +300,6 @@ Two or three sentences: the problem, the interesting technical decision, the out
 ## 🏆 Achievements
 
 <div align="center">
-
-<img width="100%" alt="Trophies" src="https://github-profile-trophy.vercel.app/api/?username=DiegoArias32&theme=radical&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=6&title=Commits,Repositories,PullRequest,Followers,MultiLanguage,Experience"/>
-
-<br/>
 
 <img alt="Quote" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true"/>
 
