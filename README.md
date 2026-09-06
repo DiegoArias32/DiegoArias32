@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" alt="Diego Arias — Full-Stack Developer" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=220&section=header&text=Diego%20Arias&fontSize=64&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Full-Stack%20Developer%20·%20.NET%20·%20Laravel%20·%20Next.js&descAlignY=58&descSize=18"/>
+<img width="100%" alt="Diego Arias — Full-Stack Developer" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=220&section=header&text=Diego%20Arias&fontSize=64&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Full-Stack%20Developer%20·%20.NET%20·%20Laravel%20·%20Next.js%20·%20Flutter&descAlignY=58&descSize=18"/>
 
 <a href="https://www.linkedin.com/in/diego-arias-654426250/">
   <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -9,7 +9,7 @@
   <img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 <img alt="Location" src="https://img.shields.io/badge/Neiva,%20Colombia-1a1a2e?style=for-the-badge&logo=googlemaps&logoColor=white"/>
-<img alt="Open to work" src="https://img.shields.io/badge/Open%20to-Remote%20%26%20Relocation-00C853?style=for-the-badge&logo=github&logoColor=white"/>
+<img alt="Available" src="https://img.shields.io/badge/Available-Remote%20%26%20Relocation-00C853?style=for-the-badge&logo=github&logoColor=white"/>
 
 </div>
 
@@ -17,21 +17,23 @@
 
 ## Hi, I'm Diego 👋
 
-I'm 20, based in Neiva, Colombia, and I'm the **sole developer** behind a five-module platform running in production at **ElectroHuila S.A. E.S.P.**, a regional power utility. Database schema, backend, frontend, CI/CD pipeline, tests — all of it.
+I'm 20, based in Neiva, Colombia. Between January and July 2026 I built and maintained **six enterprise applications running in production** at **ElectroHuila S.A. E.S.P.**, a regional power utility — web and mobile, from database schema to CI/CD pipeline.
 
-What that has taught me, in short:
+Three things that period taught me:
 
-- **Enterprise .NET at scale** — Clean Architecture + CQRS on ASP.NET Core, with Oracle, SQL Server, PostgreSQL and MySQL wired into a single application through EF Core.
-- **Shipping, not just building** — Jenkins pipelines, Docker Compose, three environments, and E2E coverage with Cypress and Playwright, because "works on my machine" doesn't help the people using it.
-- **Applied AI** — I built a full ChatGPT-style platform on my own time: hybrid RAG over pgvector, four LLM providers, Stripe billing, Langfuse observability.
+- **Legacy data is where the real work is.** I integrated new applications with Oracle 19c and external corporate systems (ERP, SIEC, payroll), and built a management dashboard that consolidates KPIs from five separate databases into one view.
+- **Shipping is part of the job.** I ran Jenkins CI/CD pipelines and then led the migration to Coolify, giving QA and production automated deploys on `git push`.
+- **Field constraints beat clean abstractions.** ServiCampo had to work offline in rural areas, so it syncs to Oracle when a signal comes back — not when the architecture diagram says it should.
+
+On my own time I built a full ChatGPT-style platform: hybrid RAG over pgvector, four LLM providers, Stripe billing, LLM observability.
 
 I like problems where the hard part is the system design, not the syntax.
 
 <table>
-<tr><td><b>Role</b></td><td>Application Developer @ ElectroHuila S.A. E.S.P.</td></tr>
-<tr><td><b>Education</b></td><td>ADSO — SENA (2024–2025)</td></tr>
+<tr><td><b>Most recent</b></td><td>Software Developer @ ElectroHuila S.A. E.S.P. (Jan – Jul 2026)</td></tr>
+<tr><td><b>Education</b></td><td>Tecnólogo en Análisis y Desarrollo de Software — SENA (2024 – 2026)</td></tr>
 <tr><td><b>Certification</b></td><td>Claude Code in Action — Anthropic (2026)</td></tr>
-<tr><td><b>Languages</b></td><td>Spanish (native) · English (technical)</td></tr>
+<tr><td><b>Languages</b></td><td>Spanish (native) · English (intermediate)</td></tr>
 <tr><td><b>Looking for</b></td><td>Backend / full-stack roles — remote or relocation</td></tr>
 </table>
 
@@ -39,27 +41,25 @@ I like problems where the hard part is the system design, not the syntax.
 
 ## 🚀 What I've built
 
-### 🏭 PQR-Agenda — enterprise multi-module platform
+### 🏭 ElectroHuila — six applications in production
 
-> **In production** at ElectroHuila S.A. E.S.P. · Built solo, from architecture to deployment
-> *Private repository — happy to walk through the architecture or share a code sample on request.*
+> **Live systems** at a regional power utility · Built end to end, from schema to deploy
+> *Private company repositories — happy to walk through the architecture or share a code sample on request.*
 
-Five modules serving internal staff and utility customers:
-
-| Module | What it does |
+| Application | What it does |
 | --- | --- |
-| 📅 **PQR Scheduling** | Appointment booking with interactive calendar, QR check-in, Excel export, admin panel, and Gmail + WhatsApp notifications |
-| 🏢 **Corporate Intranet** | Single portal for 30+ internal apps, organized by department, with SSO |
-| 📄 **Actas** | Automatic PDF and document generation, installable as a PWA |
-| 📊 **KPI Dashboard** | Live reliability and revenue indicators (SAIDI, SAIFI) rendered with Recharts |
-| 🗺️ **ServiCampo** | Field-operations management with KML mapping |
+| 📅 **PQR Scheduling** | Customer appointment booking with real-time notifications over WhatsApp, email and SignalR, plus QR-code check-in |
+| 🗺️ **ServiCampo** | Offline-first Flutter app for managing electrical easements in the field — satellite maps, photo capture, automatic Oracle sync |
+| 📊 **Indicadores Gerenciales** | Executive dashboard consolidating KPIs from five databases (commercial, technical, HR, quality, finance) |
+| 📄 **Actas** | Automates contractual and pre-contractual paperwork, cutting document turnaround time |
+| 🏢 **Corporate Intranet** | Portal launching 27+ internal applications, with news and integrated management system |
 
-**Architecture** — Clean Architecture + CQRS · ASP.NET Core 10 (C# 13) + Laravel 12 (PHP 8.2) · real-time updates over SignalR
-**Data** — Oracle 19c · SQL Server · PostgreSQL · MySQL, unified through Entity Framework
-**DevOps** — Jenkins declarative pipeline · Docker Compose · Dev / QA / Production
-**Testing** — Vitest · Cypress · Playwright · Pest PHP
+**Stack** — Laravel · .NET · Next.js · Flutter
+**Data** — Oracle 19c, including queries against external systems (ERP, SIEC, payroll) · SQL Server · PostgreSQL · MySQL
+**Security** — JWT authentication with role-based access control
+**DevOps** — Jenkins pipelines, then led the migration to Coolify with `git push` deploys to QA and production
 
-<img alt="Stack" src="https://skillicons.dev/icons?i=cs,dotnet,php,laravel,react,nextjs,ts,tailwind,docker,jenkins&theme=dark"/>
+<img alt="Stack" src="https://skillicons.dev/icons?i=cs,dotnet,php,laravel,react,nextjs,flutter,ts,docker,jenkins&theme=dark"/>
 
 ---
 
@@ -98,14 +98,14 @@ Two or three sentences: the problem, the interesting technical decision, the out
 
 ## 🛠️ Stack
 
-**Backend** — C# / .NET · PHP / Laravel · Python · REST APIs · SignalR
+**Backend** — C# / .NET · PHP / Laravel · Node.js · Java / Spring Boot · Python · REST APIs · SignalR
 **Frontend** — React · Next.js · TypeScript · Tailwind CSS
+**Mobile** — Flutter
 **Data** — Oracle · SQL Server · PostgreSQL · MySQL · pgvector · Entity Framework · Drizzle
-**Infra** — Docker · Jenkins · AWS · Nginx · Linux
-**Testing** — Vitest · Cypress · Playwright · Pest
+**Infra** — Docker · Jenkins · Coolify · Nginx · Linux · Git
 
-<img alt="Backend and cloud" src="https://skillicons.dev/icons?i=cs,dotnet,php,laravel,python,aws,docker,nginx,linux,jenkins&theme=dark&perline=10"/>
-<img alt="Frontend and tooling" src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,postgres,mysql,git,github,vscode&theme=dark&perline=10"/>
+<img alt="Backend" src="https://skillicons.dev/icons?i=cs,dotnet,php,laravel,java,spring,nodejs,python,flutter,dart&theme=dark&perline=10"/>
+<img alt="Frontend and infra" src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,postgres,mysql,docker,git,linux&theme=dark&perline=10"/>
 
 ---
 
@@ -118,7 +118,7 @@ Two or three sentences: the problem, the interesting technical decision, the out
 
 </div>
 
-> Most of my production work lives in private and company repositories, so the graph below doesn't tell the whole story. Ask me about the architecture instead — I'd rather talk through a design decision than a commit count.
+> Most of my production work lives in private and company repositories, so these numbers don't tell the whole story. Ask me about the architecture instead — I'd rather talk through a design decision than a commit count.
 
 ---
 
@@ -126,7 +126,7 @@ Two or three sentences: the problem, the interesting technical decision, the out
 
 ### Let's talk
 
-I'm open to backend and full-stack roles, remote or with relocation.
+I'm available for backend and full-stack roles, remote or with relocation.
 
 <a href="https://www.linkedin.com/in/diego-arias-654426250/">
   <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
